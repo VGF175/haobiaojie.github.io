@@ -1,0 +1,353 @@
+/*
+* @Author: lenovo
+* @Date:   2017-10-17 15:18:46
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-10-18 23:45:38
+*/
+@import url('base.css');
+.about-us{
+	height: auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.about-h31{
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+.about-p1{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 49px;
+}
+.content>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.about-h32{
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 14px;
+}
+.about-p2{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.xuanze{
+	height: auto;
+	background: #F3F3F4;
+	padding-bottom: 90px;
+	padding-top: 120px;
+}
+.jiewei{
+	height: auto;
+	background: #fff;
+	padding-bottom: 90px;
+	padding-top: 120px;
+}
+.content31{
+	padding: 30px;
+	background: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content31:hover{
+	transform: translateY(-3px);
+	transition: all 0.7s;
+	box-shadow: 0 0 10px 3px #999;
+}
+.content31 i{
+	font-size: 30px;
+}
+.content31 .come{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.content31 .xiaowen{
+	font-size: 14px;
+	line-height: 24px;
+	color: #777;
+}
+.zuopin{
+	height: auto;
+	background: #F3F3F4;
+	padding-bottom: 120px;
+	padding-top: 120px;
+}
+.zuopin .ggg{
+	height: 28px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+}
+.zuopin .ggg li{
+	
+	margin-left: 25px;
+
+}
+.zuopin .ggg li a{
+	font-size: 15px;
+	color: #888;
+	font-weight: 600;
+}
+.zuopin .ggg li a:hover{
+	color: #000;
+}
+.zuopin .ggg li .active{
+	color: #000;
+}
+.content32{
+	margin-bottom: 30px;
+	position: relative;
+}
+.content8 .content32 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.heihei{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.heihei .kk6{
+	width: 100%;
+	height: 36px;
+}	
+.heihei .kk6 .pop{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	font-size: 40px;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+.heihei .kk6 .pop:hover{
+	color: red;
+}
+.ttt{
+	font-size: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+.vvv{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+.content32:hover .heihei{
+	display: block;
+	transition: all 3s;
+}
+
+/* .content999{
+	width: 100%;
+	height: 100%;
+} */
+.input11{
+	width: 100%;
+	border: 1px solid #e4e7e9;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #a3a8ab;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+.input12{
+	padding: 15px 30px;
+	background: #000;
+	color: #fff;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #e4e7e9;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #a3a8ab;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+.mini{
+	height: 60px;
+	margin-bottom: 30px;
+}
+.nssa{
+	margin-bottom: 0px;
+}
+.qwer{
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #f6f6f6;
+	text-align: center;
+	line-height: 60px;	
+	float: left;
+}
+.qwer .icon-dizhi{
+	font-size: 30px;
+	color: #55575d;
+}
+.qwer .icon-phone{
+	font-size: 30px;
+	color: #55575d;
+}
+.qwer .icon-youjian-{
+	font-size: 30px;
+	color: #55575d;
+}
+.yyyy{
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #959595;
+}
+.zuidibu{
+	background-color: #0d1218;
+    color: #fff;
+    padding: 42px 0px;
+    position: relative;
+  
+}
+.content444{
+	height: 100%;
+	line-height: 36px;
+	font-size: 13px;
+}
+.activee{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #888;
+	float: right;
+	cursor: pointer;
+	margin-right: 15px;
+}
+.activee .llf{
+	display: block;
+	margin-left: 8px;
+	
+	font-size: 20px;
+	color: #444;	
+}
+.activee:hover{
+	background: blue;
+	
+}
+.activee:hover .llf{
+	color: #fff;
+} 
+/* pc大屏大于1200px */
+@media screen and (min-width: 1200px){
+	.content31{
+		height: 222px;
+	}
+	.content32{
+		height: 280px;
+	}
+	.heihei .kk6 .pop{
+	
+		margin-top: 80px;
+	}
+	.ttt{
+		margin-top: 20px; 
+	}
+	.vvv{
+		margin-top: 20px; 
+	}
+}
+/* pc小屏 */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.content31{
+		height: 246px;
+	}
+	.content32{
+		height: 230px;
+	}
+	.heihei .kk6 .pop{
+	
+		margin-top: 60px;
+	}
+	.ttt{
+		margin-top: 20px; 
+	}
+	.vvv{
+		margin-top: 20px; 
+	}
+}
+/* 平板屏 */
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.content{
+		padding-bottom: 50px;
+	}
+	.content31{
+		height: 222px;
+	}
+	.content32{
+		height: 174px;
+	}
+	.heihei .kk6 .pop{
+		
+		margin-top: 30px;
+	}
+	.ttt{
+		margin-top: 20px; 
+	}
+	.vvv{
+		margin-top: 20px; 
+	}
+}
+/* 移动端 */
+@media screen and (max-width: 768px){
+	.content{
+		padding-bottom: 50px;
+	}
+	.content31{
+		height: 198px;
+	}
+	.heihei .kk6 .pop{
+	
+		margin-top: 30px;
+	}
+	.ttt{
+		margin-top: 20px; 
+	}
+	.vvv{
+		margin-top: 20px; 
+	}
+	.content999{
+		padding-bottom: 50px;
+	}
+	
+	.content998{
+		padding-bottom: 30px;
+	}
+}
